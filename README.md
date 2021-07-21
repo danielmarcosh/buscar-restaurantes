@@ -1,4 +1,4 @@
-Este Projeto foi desenvolvido durante o curso "LocalizaLabs React Developer" da Digital Innovation One [Projeto Reacth](https://digitalinnovation.one/). 21/07/2021.
+Este Projeto foi desenvolvido durante o curso "LocalizaLabs React Developer" da [Digital Innovation One](https://digitalinnovation.one/). 21/07/2021.
 
 ## Criando um site para encontrar restaurantes usando Google Maps que consulta API do Google
 
@@ -12,7 +12,7 @@ Instala as depedências do Projeto.<br />
 ### `yarn start`
 
 Executa o aplicativo no modo de desenvolvimento.<br />
-Open [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
+Abrir [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
 
 ### `yarn test`
 
@@ -26,7 +26,6 @@ Ele agrupa corretamente o React no modo de produção e otimiza a construção p
 
 A compilação é reduzida e os nomes dos arquivos incluem os hashes.
 Seu aplicativo está pronto para ser implantado!<br />
-Your app is ready to be deployed!
 
 Consulte a seção sobre [deployment](https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.
 ### Agradecimentos
