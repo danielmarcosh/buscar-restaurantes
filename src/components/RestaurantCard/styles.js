@@ -31,3 +31,19 @@ export const RestaurantPhoto = styled.img`
 export const Content = styled(Text)`
   margin-top: 5px;
 `;
+
+export const Title = styled.span`
+  font-family: ${(props) => props.theme.fonts.regular};
+  color: ${(props) => props.theme.colors.text};
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 29px;
+`;
+
+export const Address = styled.div`
+  font-family: ${(props) => props.theme.fonts.regular};
+  color: ${(props) => props.theme.colors.text};
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+`;

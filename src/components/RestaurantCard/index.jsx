@@ -27,8 +27,15 @@ const ResturantCard = ({ restaurant, onClick }) => {
 }; */
 
 import React from 'react';
-import { Restaurant } from './styles';
+import { Restaurant, RestaurantInfo, Title, Address } from './styles';
 
-const ResturantCard = () => <Restaurant />;
+const RestaurantCard = () => (
+  <Restaurant>
+    <RestaurantInfo>
+      <Title>Nome do Restaurante </Title>
+      <Address>Endereço</Address>
+    </RestaurantInfo>
+  </Restaurant>
+);
 
-export default ResturantCard;
+export default RestaurantCard;
