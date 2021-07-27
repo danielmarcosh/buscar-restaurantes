@@ -21,6 +21,7 @@ export const RestaurantInfo = styled.div`
 `;
 
 export const RestaurantPhoto = styled.img`
+  display: ${(props) => (props.imageLoaded ? 'block' : 'none')}
   border-radius: 6px;
   width: 100px;
   height: 100px;
