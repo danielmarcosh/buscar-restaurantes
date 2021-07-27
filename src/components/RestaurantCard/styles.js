@@ -25,7 +25,7 @@ export const RestaurantPhoto = styled.img`
   width: 100px;
   height: 100px;
   object-fit: cover;
-  display: ${({ imageLoaded }) => (imageLoaded ? 'block' : 'none')};
+  /* display: ${({ imageLoaded }) => (imageLoaded ? 'block' : 'none')}; */
 `;
 
 export const Content = styled(Text)`
